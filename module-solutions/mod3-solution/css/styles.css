@@ -8,13 +8,13 @@
 body {
 	font-size: 16px;
 	color: #000;
-	background-color: #fff;
+	background-color: #ffe6e6;
 	font-family: 'Oxygen', sans-serif;
 }
 
 /** HEADER **/
 #header-nav {
-	background-color: #808080;
+	background-color: #990000;
 	border-radius: 0;
 	border: 2px solid black;
 }
@@ -34,7 +34,7 @@ body {
 }
 
 .navbar-brand h1 { /* Brand name */
-	color: #3e3e3e;
+	color: #009999;
 	font-size: 2.1em;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
@@ -81,6 +81,7 @@ body {
 @media (min-width: 992px) and (max-width: 1199px) {
 
 }
+}
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
@@ -117,6 +118,18 @@ body {
 
 .bold {
 	font-weight: bold;
+	color: #009999;
+	text-shadow: 1px 1px 1px #222;
+}
+
+.top {
+	font-weight: bold;
+	color: #000;
+	text-shadow: 1px 1px 1px #222;
+}
+
+.top a:hover, .top a:focus {
+	text-decoration: none;
 }
 
 h2 {
@@ -127,10 +140,14 @@ p {
 	text-align: left;
 	padding-left: 30px;
 	padding-right: 30px;
+	padding-bottom: 30px;
 }
 
 .background-gray {
-	background-color: #808080;
+	background-color: #ff9999;
+	border-radius:8px;
+	padding-bottom: 1px;
+	margin-top: 25px;
 }
 .border {
 	border-top: 1px solid black;
